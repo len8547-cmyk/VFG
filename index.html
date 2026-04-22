@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silkroad Again — Redesign Concept</title>
+    <meta
+      name="description"
+      content="실크로드 어게인 리디자인 컨셉 랜딩 페이지. 교역, 약탈, 모험의 감성을 현대적으로 재해석했습니다."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#">SILKROAD AGAIN</a>
+        <nav class="nav-links">
+          <a href="#features">게임 특징</a>
+          <a href="#classes">직업</a>
+          <a href="#roadmap">로드맵</a>
+          <a href="#pre-register">사전예약</a>
+        </nav>
+        <button class="ghost-btn">KR</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">WEMADE MAX LICENSED MMORPG</p>
+          <h1>다시, 실크로드를 걷다</h1>
+          <p class="hero-copy">
+            교역, 약탈, 모험이 살아있는 월드에서 길드를 이끌고 전장을 지배하세요.
+            고전의 감성과 현대적 UX를 결합한 리디자인 컨셉 페이지입니다.
+          </p>
+          <div class="cta-group">
+            <a class="primary-btn" href="#pre-register">사전예약 하기</a>
+            <a class="secondary-btn" href="#trailer">트레일러 보기</a>
+          </div>
+          <div class="stat-grid">
+            <div>
+              <strong>500K+</strong>
+              <span>사전예약자</span>
+            </div>
+            <div>
+              <strong>100v100</strong>
+              <span>대규모 전장</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>월드 이벤트</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2>핵심 콘텐츠</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>교역 루트</h3>
+              <p>동서양 도시를 잇는 카라반을 운영하고 경제를 지배하세요.</p>
+            </article>
+            <article class="card">
+              <h3>약탈 & 호위</h3>
+              <p>도적과 헌터의 전략 대결. 경로 선택과 타이밍이 승부를 가릅니다.</p>
+            </article>
+            <article class="card">
+              <h3>오픈월드 탐험</h3>
+              <p>사막, 설원, 고대 유적까지. 환경 기반 전투와 보스 레이드 제공.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="classes" class="section alt">
+        <div class="container">
+          <h2>직업 프리뷰</h2>
+          <div class="class-list" id="classList">
+            <button class="class-pill active" data-class="merchant">상인</button>
+            <button class="class-pill" data-class="hunter">헌터</button>
+            <button class="class-pill" data-class="thief">도적</button>
+          </div>
+          <div class="class-panel" id="classPanel">
+            <h3>상인</h3>
+            <p>고위험 고수익 루트를 설계하며 길드의 재정을 책임지는 전략형 클래스.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="container">
+          <h2>업데이트 로드맵</h2>
+          <ul class="timeline">
+            <li><span>2026 Q2</span> 길드 원정 & 거점 점령전 업데이트</li>
+            <li><span>2026 Q3</span> 신규 지역 "천산 회랑" 오픈</li>
+            <li><span>2026 Q4</span> 글로벌 크로스서버 토너먼트</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="pre-register" class="section pre-register">
+        <div class="container pre-register-wrap">
+          <h2>사전예약 오픈</h2>
+          <p>지금 등록하고 한정 탈것 스킨과 7일 성장 패키지를 받아보세요.</p>
+          <form class="register-form">
+            <input type="email" placeholder="이메일 주소" required />
+            <button type="submit">등록하기</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Silkroad Again Redesign Concept.</p>
+        <a id="trailer" href="#">공식 트레일러</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
